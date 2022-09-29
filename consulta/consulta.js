@@ -35,6 +35,8 @@ async function pesquisar() {
             limparFormulario();
         }
         localStorage.removeItem('cpf');
+        localStorage.clear();
+
     }
 
 }
