@@ -64,7 +64,7 @@ async function cadastrar() {
     var estado = document.getElementById("estado").value;
     
     
-    if (nome === '' || cpf === ''  || cpf.length <= 11) {
+    if (nome === '' || cpf === ''  || cpf.length < 11) {
         alert('CPF e/ou nome inválido(s)')
     } else {
         

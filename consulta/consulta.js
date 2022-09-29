@@ -18,7 +18,7 @@ document.getElementById("consultar").onclick = pesquisar;
 async function pesquisar() {
     var cpf = document.getElementById("inputCpf").value;
 
-    if (cpf === '' || cpf.length <= 11) {
+    if (cpf === '' || cpf.length < 11) {
         alert('CPF inválido')
     } else {
         var repo = await fetch("https://6333633c433198e79dc444a9.mockapi.io/cadastro/");
