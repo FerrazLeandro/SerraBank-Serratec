@@ -34,8 +34,7 @@ async function pesquisar() {
             alert("CPF " + cpf + " não encontrado :(");
             limparFormulario();
         }
-        storage.clear();
-
+        localStorage.removeItem('cpf');
     }
 
 }
