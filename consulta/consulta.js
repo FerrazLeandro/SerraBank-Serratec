@@ -17,24 +17,20 @@ document.getElementById("consultar").onclick = pesquisar;
 
 async function pesquisar() {
     var cpf = document.getElementById("inputCpf").value;
+    var repo = await fetch("https://6333633c433198e79dc444a9.mockapi.io/cadastro/");
+    var pessoas = await repo.json();
+    var pessoa
 
-    if (cpf === '') {
-        alert('CPF inválido')
+    if (pessoa = pessoas.find((pessoas) => pessoas.cpf === cpf)) {
+        document.getElementById("inputNome").value = pessoa.nome;
+        document.getElementById("inputTelefone").value = pessoa.telefone;
+        document.getElementById("inputEmail").value = pessoa.email;
+        document.getElementById("inputStatus").value = pessoa.status;
     } else {
-        var repo = await fetch("https://6333633c433198e79dc444a9.mockapi.io/cadastro/");
-        var pessoas = await repo.json();
-        var pessoa
-
-        if (pessoa = pessoas.find((pessoas) => pessoas.cpf === cpf)) {
-            document.getElementById("inputNome").value = pessoa.nome;
-            document.getElementById("inputTelefone").value = pessoa.telefone;
-            document.getElementById("inputEmail").value = pessoa.email;
-            document.getElementById("inputStatus").value = pessoa.status;
-        } else {
-            alert("CPF " + cpf + " não encontrado :(");
-            limparFormulario();
-        }
+        alert("CPF " + cpf + " não encontrado :(");
+        limparFormulario();
     }
+}
 
 
 }
