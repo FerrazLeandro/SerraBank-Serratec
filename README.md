@@ -1,5 +1,7 @@
 # FrontEnd
 
+![trabalho final de front](https://cdn.discordapp.com/attachments/1006252651450732645/1024856166976737371/bank.png)
+
 <h1 align="center"> Projeto final da matéria frontend. </h1>
 
 <p align="center">
@@ -17,7 +19,7 @@
 <p>Consumindo uma API.</p>
 
 ## 🎯 Objetivo
-Fazer um site que facilite o envio de seus arquivos para a nuvem. 
+Centralizar todas as contas bancárias em um só lugar, facilitando seu acesso na hora de comprar!
 
 ## Autores
 
