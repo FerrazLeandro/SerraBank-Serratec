@@ -4,11 +4,11 @@
 
 <h1 align="center"> Projeto final da matéria frontend. </h1>
 
-Link:  https://ferrazleandro.github.io/SerraBank-Serratec/
-
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=GREEN&style=for-the-badge"/>
 </p>
+
+
 
 ## 📁 Descrição
 <p>Site bem estilizado.</p>
@@ -19,6 +19,9 @@ Link:  https://ferrazleandro.github.io/SerraBank-Serratec/
 <p>Usando os diferentes tipos de display (inline, bock e flex).</p>
 <p>Manipulando elementos com JavaScript.</p>
 <p>Consumindo uma API.</p>
+Link: https://ferrazleandro.github.io/SerraBank-Serratec/
+
+
 
 ## 🎯 Objetivo
 Centralizar todas as contas bancárias em um só lugar, facilitando seu acesso na hora de comprar!
