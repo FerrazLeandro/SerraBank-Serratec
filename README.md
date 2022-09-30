@@ -17,7 +17,7 @@
 <p>Usando os diferentes tipos de display (inline, bock e flex).</p>
 <p>Manipulando elementos com JavaScript.</p>
 <p>Consumindo uma API.</p>
-Link: https://ferrazleandro.github.io/SerraBank-Serratec/
+Link: http://serrabank.tk/
 
 
 
